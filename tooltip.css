@@ -1,0 +1,24 @@
+.currency-tooltip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .currency-tooltip .title {
+    margin-bottom: 5px;
+  }
+  
+  .currency-tooltip .value {
+    font-size: 16px;
+    font-weight: normal;
+    color: #f00;
+  }
+  
